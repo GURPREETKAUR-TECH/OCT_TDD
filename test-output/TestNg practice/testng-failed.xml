@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNg practice]">
+  <test thread-count="5" name="TDD(failed)">
+    <classes>
+      <class name="testLayer.Testclass">
+        <methods>
+          <include name="initialsetup"/>
+          <include name="title"/>
+        </methods>
+      </class> <!-- testLayer.Testclass -->
+    </classes>
+  </test> <!-- TDD(failed) -->
+  <test thread-count="5" name="TestNG(failed)">
+    <classes>
+      <class name="testngPractice.Google">
+        <methods>
+          <include name="title"/>
+          <include name="url"/>
+          <include name="driversetup"/>
+          <include name="window"/>
+          <include name="wait1"/>
+        </methods>
+      </class> <!-- testngPractice.Google -->
+    </classes>
+  </test> <!-- TestNG(failed) -->
+</suite> <!-- Failed suite [TestNg practice] -->
